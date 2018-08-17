@@ -21,7 +21,7 @@ gulp.task('browser', function() {
 	console.log('Gulp: Magic there is a browser!');
   browserSync.init({
     server: {
-      baseDir: 'dist/'
+      baseDir: 'docs/'
     },
   })
 })
@@ -51,7 +51,7 @@ gulp.task('build', function(){
     .pipe(nunjucksRender({
       path: ['htmlsource/templates/'] // String or Array
     }))
-    .pipe(gulp.dest("./dist"));
+    .pipe(gulp.dest("./docs"));
 
 
 })

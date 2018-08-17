@@ -351,6 +351,7 @@ $button-responsive-expanded: false !default;
         &, &:hover, &:focus {
           &, &.disabled, &[disabled] {
             border-color: transparent;
+            background-color: transparent;
           }
         }
 

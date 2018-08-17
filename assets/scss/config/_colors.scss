@@ -1,5 +1,6 @@
 $teal:#198dae;
-$dark-grey:#63646b;
+$dark-grey:#5a5c69;
+$light-grey:#c5bfba;
 $green:#09911f;
 $orange:#e18725;
 $red: #cb241c;
@@ -19,7 +20,8 @@ $acc-palette: (
   selected:$green-alt,
   info:$purple,
   hightlight:$magenta,
-  acc:$acc-blue
+  acc:$acc-blue,
+  secondary-alt: $light-grey
 );
 
 @function get-themecolor($key:primary, $modifier:0){

@@ -1,0 +1,22 @@
+<!-- I am in templates -->
+{% set languages = ["English","French","Spanish","Mandrin"] %}
+<div class="margin-top_4 border-bottom-width_1 border_white-5 padding_3 border_solid">
+	<h2 class="color_white font_2 font_display">Select Language</h2>
+</div>
+<ul class="no-bullet">
+	{% for language in languages %}
+	<li class="
+	border-bottom-width_1
+	border_solid
+	border_white-3
+	color_white
+	font_1
+	font_normal
+	hover-text_black
+	hover_secondary-2
+	padding_3
+	">
+	<i class="fal fa-square"></i>  {{ language }}
+	</li>
+	{%  endfor %}
+</ul>
